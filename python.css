@@ -1,0 +1,63 @@
+
+/*.video-row {
+      display: flex;
+      /*gap: 1px; /* ভিডিওগুলোর মাঝে ফাঁকা */
+   /*   overflow-x: auto;
+    /*  padding: 20px;
+      scroll-behavior: smooth; /* স্মুথ স্ক্রলিং */
+    /*  background: #f3f3f3;
+    }
+    .video-row iframe, .video-row img {
+      width: 320px;
+      height: 180px;
+      flex: 0 0 auto; /* সাইজ ফিক্সড থাকবে 
+      border-radius: 6px;
+      border: 2px solid #ddd;
+      background: #fff;
+    }
+*/
+.video{
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 20px;
+  scroll-behavior: smooth;
+  background: #f3f3f3;
+}
+.video a video{
+  width: 180px;
+  height: 320px;
+  flex: 0 0 auto;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  background: #fff;
+}
+.video a{
+  text-decoration: none;
+  color: aqua
+}
+.video a h4{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+.video a .m{
+  margin-top: -60px;
+}
+footer{
+		display: block;
+		width:auto;
+ background: linear-gradient(to left bottom, #376183f5,#313280,#533474);
+		padding-bottom: 4px;
+}
+footer a{
+		display: block;
+		text-decoration: none;
+		color: crimson;
+		font-weight: bolder;
+		text-align: center;
+}
+footer small{
+		display: block;
+		text-align: center;
+}

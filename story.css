@@ -1,0 +1,57 @@
+.g1{
+		height: 400px;
+		width: 80vw;
+		background-image: url(i.jpg);
+		background-size: 80vw;
+		background-repeat: no-repeat;
+		margin-bottom: 50px;
+		margin: 4px;
+		border: 1px solid gray;
+		border-radius: 20px;
+		box-shadow: 4px 4px 4px 4px #9596ce6a;
+}
+.g1 h1{
+		font-size: 40px;
+		font-weight: bolder;
+		color: aqua;
+		text-align: center;
+		margin-bottom: 30px;
+}
+.g1 h1 hr{
+		display: block;
+		font-size: 24px;
+}
+.g1 p{
+		font-weight: bolder;
+		color: blue;
+		line-height: 20px;
+		text-align: center
+}
+.g1 .a{
+		margin-top: 190px;
+}
+.g1 a{
+		text-decoration: none;
+}
+.g1 l{
+		margin-top: 50vh;
+}
+
+footer{
+		display: block;
+		width:auto;
+ background: linear-gradient(to left bottom, #376183f5,#313280,#533474);
+		padding-bottom: 4px;
+		margin-top: 200px;
+}
+footer a{
+		display: block;
+		text-decoration: none;
+		color: crimson;
+		font-weight: bolder;
+		text-align: center;
+}
+footer small{
+		display: block;
+		text-align: center;
+}

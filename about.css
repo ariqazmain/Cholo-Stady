@@ -1,0 +1,37 @@
+		/*'Hind Siliguri' 
+        'Noto Sans Bengali',
+        'Nirmala UI',
+        'Shonar Bangla', 
+        'Vrinda',
+        'Kalpurush',
+        'Lohit Bengali',
+        sans-serif;*/
+#all{
+		padding: 10px;
+		margin: 0px;
+		background: linear-gradient(#ffffff,#e5fffe,#b6fffc,#8afffa,#58fff8,#2dfff6,#0afff4,#00d1c7,#00c7be,#00a69e,#00837d,#005652,#004b48,#003735);
+		  
+}
+/*h3{
+		background: linear-gradient(black,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+		mix-blend-mode: screen;
+}*/
+footer{
+		display: block;
+		width:auto;
+ background: linear-gradient(to left bottom, #376183f5,#313280,#533474);
+		padding-bottom: 4px;
+}
+footer a{
+		display: block;
+		text-decoration: none;
+		color: crimson;
+		font-weight: bolder;
+		text-align: center;
+}
+footer small{
+		display: block;
+		text-align: center;
+}

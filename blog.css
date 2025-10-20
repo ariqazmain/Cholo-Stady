@@ -1,0 +1,52 @@
+.blog img {
+		height: 37vh;
+		width: 90vw;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 80px;
+}
+.blog h1{
+		font-size: 8vw;
+		text-align: center;
+		text-decoration: none;
+}
+.blog{
+		border: 3px solid;
+		border-radius: 80px;
+		background: linear-gradient(to top left,#070075,#080082,#090092,#0a009e,#0b00ac,#0c00be,#0d00ce,#0e00da,#0f00eb,#1000fc,#1404ff,#1404ff,#1e0fff,#1a0bff,#1e0fff,#2f21ff,#3023ff,#3326ff,#2e21fe,#2e21ff,#3124ff,#4438ff,#5449ff,#6f66ff,#7e76ff,#7f77ff,#a19bff,#c4c0ff,#cac6ff,#d8d5ff);
+		box-shadow: 0 4px 4px 4px #6f66ff ;
+		text-decoration: none;
+		color: aliceblue;
+}
+a{
+		text-decoration: none;
+		color: aliceblue;
+}
+footer{
+		display: block;
+		width:auto;
+ background: linear-gradient(to left bottom, #376183f5,#313280,#533474);
+		padding-bottom: 4px;
+		margin-top: 200px;
+}
+footer a{
+		display: block;
+		text-decoration: none;
+		color: crimson;
+		font-weight: bolder;
+		text-align: center;
+}
+footer small{
+		display: block;
+		text-align: center;
+}
+@media(max-width:735px){
+		.blog img {
+				margin: 5px;
+				padding: 5px;
+				border-radius: 30px;
+		}
+		.blog{
+				border-radius: 30px;
+		}
+}
